@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+dependencies {
+    compile 'org.springframework:spring-context:4.0.4.RELEASE'
+    compile 'org.springframework:spring-aop:4.0.4.RELEASE'
+    compile 'commons-pool:commons-pool:1.6'
+}
+
+repositories {
+    mavenCentral()
+}
